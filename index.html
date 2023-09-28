@@ -1,38 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>One-Health</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="maicons.css" />
 
-<body>
-    <header>
-        <nav>
-            <div class="container nav_container">
-                <a href="index.html" class="nav_logo"><span class="logo">One</span>-Health</a>
-                <input type="search" name="search" type="text" class="form-control" placeholder="Enter keyword.."
-                    aria-label="Username" value="" aria-describedby="icon-addon1">
-                <ul class="nav_links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Doctors</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><button class="btn btn-primary ml-lg-3" href="#">Login / Register</button></li>
-                </ul>
+
+  </head>
+
+  <body>
+    <!-- <header>
+      <nav>
+        <div class="container nav_container">
+          <a href="index.html" class="nav_logo"><span class="logo">One</span>-Health</a>
+          <input type="search" name="search" type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" value="" aria-describedby="icon-addon1" />
+          <ul class="nav_links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Doctors</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><button class="btn btn-primary ml-lg-3" href="#">Login / Register</button></li>
+          </ul>
+        </div>
+      </nav>
+    </header> -->
+
+    <!-- Techies Tutorial -->
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"><span class="text-primary">One</span>-Health</a>
+
+        <div class="d-flex">
+          <form action="http://hms.techies.africa/searched-home" method="GET">
+            <div class="input-group input-navbar">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="icon-addon1"><span class="fa-solid fa-magnifying-glass"></span></span>
+              </div>
+              <input type="search" name="search" type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" value="" aria-describedby="icon-addon1" />
             </div>
-        </nav>
-    </header>
+          </form>
 
-    <div class="image-container">
-        <img src="assets/images/bg_image_1.jpg" class="hero img">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
+        <div class="collapse navbar-collapse" id="navbarSupport">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="doctors-page.html">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary ml-lg-3" href="login.html">Login / Register</a>
+            </li>
+          </ul>
+        </div>
+        <!-- .navbar-collapse -->
+      </div>
+      <!-- .container -->
+    </nav>
+
+    <div class="page-hero bg-image overlay-dark" style="background-image: url(assets/img/bg_image_1.jpg)">
+      <div class="hero-section">
+        <div class="container text-center wow zoomIn">
+          <span class="subhead">Let's make your life happier</span>
+          <h1 class="display-4">Healthy Living</h1>
+          <a href="#" class="btn btn-primary">Let's Consult</a>
+        </div>
+      </div>
     </div>
 
-
-</body>
-
+    <div class="bg-light">
+      <div class="page-section py-3 mt-md-n5 custom-index">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card-service wow fadeInUp">
+                <div class="circle-shape bg-secondary text-white">
+                  <span class="mai-chatbubbles-outline"></span>
+                </div>
+                <p><span>Chat</span> with a doctors</p>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card-service wow fadeInUp">
+                <div class="circle-shape bg-primary text-white">
+                  <span class="mai-shield-checkmark"></span>
+                </div>
+                <p><span>One</span>-Health Protection</p>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card-service wow fadeInUp">
+                <div class="circle-shape bg-accent text-white">
+                  <span class="mai-basket"></span>
+                </div>
+                <p><span>One</span>-Health Pharmacy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
