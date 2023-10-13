@@ -333,3 +333,53 @@ nav{
     background: rgba(52, 53, 49, 0.7);
     z-index: 1;
 }
+
+.container h1 {
+    font-size: 45px;
+}
+
+.text-muted {
+    font-size: 16px;
+}
+
+.hero-btn {
+    color: white;
+    background-color: #00D9A5;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 8px 24px;
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline-block;
+    transition: ease 1ms;
+}
+
+.hero-btn:hover {
+    background-color: gray;
+}
+
+.doctor-head {
+    text-align: center;
+}
+
+.doctor-img {
+    width: 250px;
+    margin-top: 70px;
+}
+
+.card-icon a {
+    display: inline-block;
+    border-radius: 50%;
+    place-items: center;
+    color: #6E807A;
+    background-color: white;
+}
+
+.card-text {
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+.card-body .text-muted {
+    line-height: 0.5;
+}
