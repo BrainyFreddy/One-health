@@ -469,7 +469,18 @@ h5 {
     background-color: #00D9A5;
 }
 
-
 .form-control {
     padding: 8px 13px;
 }
+
+.sidebar-block {
+    width: 50%;
+}
+
+.categories li a {
+    display: inline-block;
+    width: 90%;
+    padding: 6px 12px;
+}
+
+
